@@ -111,8 +111,8 @@ output in *global_paths.SKIMMEDDIR/TriggerStudy*
 
 [year]: 2016, 2017, 2018;   [MC_type]: signal, QCD, TTbar
 ```
-./postprocessors/addWeights.py -y [year] -MC -MT [MC_type]
-./postprocessors/addWeights.py -y [year] 
+./postprocessors/addWeight.py -y [year] -MC -MT [MC_type]
+./postprocessors/addWeight.py -y [year] 
 ```
 
 output in *global_paths.SKIMMEDDIR*
